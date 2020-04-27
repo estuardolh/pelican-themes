@@ -621,17 +621,17 @@ list-style: disc;
 }
 
 a {
-color: #507d3e;
+color: #24292e;
 text-decoration: none;
 }
 
 a:hover {
-color: #507d3e;
+color: #202060;
 text-decoration: underline;
 }
 
 a:visited {
-color: #507d3e;
+color: #24292e;
 }
 
 table {
@@ -748,9 +748,12 @@ min-height: 400px;
 
 .footer {
 width: 100%;
+height: 10%;
 }
 
 .footer {
+position : absolute;
+bottom : 0;
 font-size: 80%;
 color: #666;
 border-top: 4px solid #EEE;
