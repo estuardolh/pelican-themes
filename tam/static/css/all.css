@@ -622,7 +622,7 @@ list-style: disc;
 
 a {
 color: #24292e;
-text-decoration: none;
+text-decoration: underline;
 }
 
 a:hover {

@@ -18,10 +18,9 @@
   <div class="article_text" id="post">
     {{ article.content }}
   </div>
-
+<hr>
   <div class="article_meta related">
-    <h3>Category: </h3>
-    <span><a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</span>
+    <p>Category: <span><a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</span></p>
     
     {% if article.tags %}
     <h3>Tags:</h3>
